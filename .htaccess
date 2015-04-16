@@ -1,0 +1,47 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # Página de painel administrativo
+  RewriteRule ^painel-administrativo/?$ /painel-administrativo.php [NC,L]
+
+  # Página de painel administrativo
+  RewriteRule ^nova-categoria/?$ /nova-categoria.php [NC,L]
+
+  RewriteRule ^criar-sitemap/?$ /criar-sitemap.php [NC,L]
+
+  # Página de painel administrativo
+  RewriteRule ^novo-desenho/?$ /novo-desenho.php [NC,L]
+
+  # Página de painel administrativo
+  RewriteRule ^resultado-da-busca/?$ /resultado-da-busca.php [NC,L]
+
+  # Página de painel administrativo
+  RewriteRule ^categorias-cadastradas/?$ /categorias-cadastradas.php [NC,L]
+
+  # Página de painel administrativo
+  RewriteRule ^remove-desenho/([a-z0-9-]+)/?$ /remove-desenho.php?id=$1 [NC]
+
+  # Página de painel administrativo
+  RewriteRule ^remove-categoria/([a-z0-9-]+)/?$ /remove-categoria.php?id=$1 [NC]
+
+  # Página de painel administrativo
+  RewriteRule ^altera-desenho-formulario/([a-z0-9-]+)/?$ /altera-desenho-formulario.php?url=$1 [NC]
+
+  # Página de painel administrativo
+  RewriteRule ^altera-categoria-formulario/([a-z0-9-]+)/?$ /altera-categoria-formulario.php?url=$1 [NC]
+
+  # Página de painel administrativo
+  RewriteRule ^desenhos-cadastrados/?$ /desenhos-cadastrados.php [NC,L]
+
+  # Página de categoria
+  RewriteRule ^categoria/([a-z0-9-]+)/?$ /categoria.php?url=$1 [NC]
+
+  # Página de desenho
+  RewriteRule ^categoria/([a-z0-9-]+)/desenho/([a-z0-9-]+)/?$ /desenho.php?url=$1&urlDesenho=$2 [NC]
+
+  # Página de login
+  RewriteRule ^admin/?$ /admin.php [NC,L]
+
+  #Sitemap
+  RewriteRule ^sitemap\.xml$ sitemap.php [L]
+</IfModule>

@@ -1,0 +1,98 @@
+/*!
+ * Start Bootstrap - Logo Nav HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+    font-family: "Boogaloo", Helvetica, Arial, sans-serif;
+    font-size: 23px;
+    background-image: url('http://desenhosparacolorirepintar.com.br/images/background.jpg');
+}
+
+h1{
+  font-size: 40px;
+}
+
+h1,h2,h3,h4{
+  color: #AE5C49;
+}
+
+p{
+  color: #4D3E3E;
+}
+
+.title-sidebar{
+  color: #AE5C49;
+}
+
+@font-face {
+  font-family: 'Boogaloo';
+  src:  url('../fonts/Boogaloo-Regular.ttf');
+}
+
+
+
+.principal{
+  padding:0 0 30px 0;
+}
+
+.navbar-fixed-top .nav {
+    padding: 15px 0;
+}
+
+.img-center {margin:0 auto;}
+
+.col-margin{
+  margin-top: 20px;
+}
+
+.size-default{
+  height: 215px;
+  width: 235px;
+}
+
+.nova-categoria{
+  padding-bottom: 30px;
+}
+
+.navbar-fixed-top .navbar-brand {
+    padding: 0 15px;
+}
+
+.navbar-dcp{
+  background-color: #AE5C49;
+  border-color: #AE5C49;
+}
+
+.navbar-inverse .navbar-nav>li>a{
+  color: #FFF;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover{
+  color: #000;
+}
+
+.form-dcp{
+  margin:24px 0 0 0;
+}
+
+.btn-pesquisar{
+  background-color: #FF9247;
+  color: #FFF;
+}
+
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover{
+  background-color: #AE5C49;
+}
+
+@media(min-width:768px) {
+    body {
+        padding-top: 100px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+    }
+
+    .navbar-fixed-top .navbar-brand {
+        padding: 5px 0 0 0;
+    }
+}
